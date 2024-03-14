@@ -1,23 +1,29 @@
+/*This is a universal selector and sets margin to 0 for the entire page*/
 * {
   margin: 0px;
 }
 
+/*The root selector stores variables so that you don't have to keep changing values of properties thoughout the code. 
+In this case the header font is set, the font of the body is set and the size of the body font is set*/
 :root {
   --header-font: "Rock Salt", cursive;
   --body-font: "Alata", sans-serif;
   --font-size: 20px;
 }
 
+/*This sets the height to viewport-height and background color of the header element*/
 header {
   height: 100vh;
   background-color: rgba(255, 220, 106, 0.1);
 }
 
+/*This sets the font size and padding of the h1*/
 h1 {
   font-size: 50px;
   padding: 60px 0px;
 }
 
+/*These properties were set for multiple selectors, including element and ID selectors*/
 h1,
 #about-header,
 #projects-header,
@@ -26,6 +32,7 @@ h1,
   text-align: center;
 }
 
+/*The body font is set for the following ID selectors to ensure consistency in font*/
 #navbar-list,
 #about,
 #projects,
@@ -33,6 +40,7 @@ h1,
   font-family: var(--body-font);
 }
 
+/*These properies apply to the links in the navigation bar including positioning*/
 #navbar-list {
   background-color: rgba(14, 15, 237, 0.8);
   list-style: none;
@@ -44,6 +52,7 @@ h1,
   font-size: 18px;
 }
 
+/*These properties descirbe the styling on the links within the navigation bar*/
 a {
   background-color: rgba(159, 154, 209, 0.961);
   padding: 5px;
@@ -52,14 +61,17 @@ a {
   color: black;
 }
 
+/*the hover pseudoselector executes the codeblock when the user hovers over the navigation bar*/
 #navbar-list li a:hover {
   color: rgba(255, 220, 106, 0.5);
 }
 
+/*This positioning is important as it is applied to the parent of the image and provides a reference for its positioning*/
 #position-relative {
   position: relative;
 }
 
+/*This ID selector applies the styling in the codeblock to the image*/
 #picture {
   border: 10px solid black;
   border-radius: 50%;
@@ -87,6 +99,8 @@ a {
   border-bottom: 5px black solid;
 }
 
+/*Display flex allows the children of the parents element/class 
+to be displayed in different ways, in this case they are spaced evenly and wrap once they take up the width of the viewport*/
 .project-flex {
   display: flex;
   flex-direction: row;
@@ -142,6 +156,7 @@ a {
   line-height: 1.5;
 }
 
+/*The following 3 hover pseudoselectors change the color of the background of the respective sections when the user hovers over them*/
 #about:hover {
   background-color: rgba(148, 240, 241, 1);
 }
@@ -154,6 +169,7 @@ a {
   background-color: rgba(139, 240, 186, 1);
 }
 
+/*The following propery ensures reponsive elements that change as the screen size changes. Breakpoints set the width at which the codeblock is executed*/
 @media screen and (max-width: 992px) {
   header {
     max-width: 100%;
