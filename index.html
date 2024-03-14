@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2: Portfolio</title>
+    <!--The link below is a custom favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/img/headshot.jpeg" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--The links below link to a custom font found on Google fonts to which I have referred in my CSS stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Dalya Kablawi</h1>
+      <nav id="navbar">
+        <ul id="navbar-list">
+          <li>
+            <a href="#about">About Me 👩‍💻</a>
+          </li>
+          <li>
+            <a href="#projects">Projects 📁</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me 📧</a>
+          </li>
+        </ul>
+      </nav>
+      <aside id="position-relative">
+        <img
+          id="picture"
+          src="./assets/img/headshot.jpeg"
+          alt="Headshot of developer Dalya Kablawi"
+        />
+      </aside>
+    </header>
+    <main class="position-relative">
+      <section id="about">
+        <h2 id="about-header">About Me 👩‍💻</h2>
+        <p id="about-me">
+          Welcome!<br />
+          My name is Dalya Kablawi. I am privileged to live, work and play on
+          the unceded, unsurrendered, traditional territory of the Mississaugas
+          of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and the
+          Wendat peoples also known as Toronto, Canada. <br />
+          I work in the field of mental health and substance use health, with a
+          focus on community suicide prevention. I'm new to web development, but
+          I'm excited to see how I can use these new skills to support and
+          improve equitable access to quality mental health care and crisis
+          support in my community.
+        </p>
+      </section>
+      <section id="projects">
+        <h2 id="projects-header">Projects 📁</h2>
+        <div class="project-flex">
+          <a
+            class="project image-1"
+            href="https://dalyakablawi.github.io/horiseon-revamp/"
+            target="_blank"
+          >
+          </a>
+          <a
+            class="project image-2"
+            href="https://cityofmebanenc.gov/parks-facilities-trails/placeholder-image/"
+            target="_blank"
+          >
+          </a>
+          <a
+            class="project image-3"
+            href="https://cityofmebanenc.gov/parks-facilities-trails/placeholder-image/"
+            target="_blank"
+          >
+          </a>
+             <a
+            class="project image-4"
+            href="https://cityofmebanenc.gov/parks-facilities-trails/placeholder-image/"
+            target="_blank"
+          >
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 id="contact-header">Contact Me 📧</h2>
+        <form class="contact-me">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name" />
+
+          <label for="surname">Last Name</label>
+          <input type="text" id="surname" name="surname" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+
+          <label for="textarea">Message</label>
+          <input type="textarea" id="message" name="message" />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
