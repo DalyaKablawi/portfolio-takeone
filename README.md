@@ -12,6 +12,7 @@ I did this by:
 - Using custom fonts in my headers and my body text.
 - Including an image of me in the header.
 - Creating an "About Me" section wherein I introduced myself, a "Projects" section displaying my projects and a "Contact Me" section with a form that potential employers can fill out to get in touch with me.
+- Creating links embedded within the projects such that employers are taken to a separate page containing the respective project. 
 
 ## User Story
 
@@ -52,5 +53,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## URLs
 
-Github repository URL
-Deployed application URL
+[Git repository URL](https://github.com/DalyaKablawi/portfolio-takeone)
+
+[Deployed application URL]
