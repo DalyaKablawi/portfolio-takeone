@@ -171,15 +171,9 @@ to be displayed in different ways, in this case they are spaced evenly and wrap 
 
 /*The following propery ensures reponsive elements that change as the screen size changes. Breakpoints set the width at which the codeblock is executed*/
 @media screen and (max-width: 992px) {
-  header {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    max-width: 100%;
-  }
 }
 
 @media screen and (max-width: 576px) {

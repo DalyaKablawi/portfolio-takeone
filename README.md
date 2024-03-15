@@ -1,4 +1,4 @@
-# Assignment 01
+# Assignment 02
 
 # CSS: Creating portfolio page
 
@@ -12,7 +12,7 @@ I did this by:
 - Using custom fonts in my headers and my body text.
 - Including an image of me in the header.
 - Creating an "About Me" section wherein I introduced myself, a "Projects" section displaying my projects and a "Contact Me" section with a form that potential employers can fill out to get in touch with me.
-- Creating links embedded within the projects such that employers are taken to a separate page containing the respective project. 
+- Creating links embedded within the projects such that employers are taken to a separate page containing the respective project.
 
 ## User Story
 
