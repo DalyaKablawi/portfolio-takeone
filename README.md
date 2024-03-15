@@ -45,6 +45,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshots
 
+![Screenshot 1](/assets/img/Screenshot%201.png)
+![Screenshot 2](/assets/img/Screenshot%202.png)
+![Screenshot 3](/assets/img/Screenshot%203.png)
+![Screenshot 4](/assets/img/Screenshot%204.png)
+
 ## URLs
 
 Github repository URL
