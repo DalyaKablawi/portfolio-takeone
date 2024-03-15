@@ -53,6 +53,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## URLs
 
-[Git repository URL](https://github.com/DalyaKablawi/portfolio-takeone)
+[GitHub repository URL](https://github.com/DalyaKablawi/portfolio-takeone)
 
 [Deployed application URL](https://dalyakablawi.github.io/portfolio-takeone/)
