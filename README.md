@@ -55,4 +55,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 [Git repository URL](https://github.com/DalyaKablawi/portfolio-takeone)
 
-[Deployed application URL]
+[Deployed application URL](https://dalyakablawi.github.io/portfolio-takeone/)
