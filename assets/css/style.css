@@ -67,7 +67,7 @@ a {
 }
 
 /*This positioning is important as it is applied to the parent of the image and provides a reference for its positioning*/
-#position-relative {
+.position-relative {
   position: relative;
 }
 
@@ -77,7 +77,7 @@ a {
   border-radius: 50%;
   width: 500px;
   position: absolute;
-  top: 90px;
+  top: 50px;
   left: 700px;
 }
 
@@ -167,14 +167,4 @@ to be displayed in different ways, in this case they are spaced evenly and wrap 
 
 #contact:hover {
   background-color: rgba(139, 240, 186, 1);
-}
-
-/*The following propery ensures reponsive elements that change as the screen size changes. Breakpoints set the width at which the codeblock is executed*/
-@media screen and (max-width: 992px) {
-}
-
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 576px) {
 }
